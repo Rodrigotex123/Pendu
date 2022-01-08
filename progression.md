@@ -7,10 +7,12 @@ De plus , en sacchant que j ai deja essayer de faire un bot discord dans le pass
 
 Maintenant , sur " la progression " du projet en soit :
 
-J ai du revoir tout les notions de bases sur python , pendant la moitie des vacances 
+Pour faire cet projet j ai prit pret de 10h . 
+deja ,en etant mon premier codage tout seul, j ai prit la plus part de mon temp a revoir les bases de la nsi , comment importé des modules , comment randomise mon jeux(pour
+choisir une lettre au hassard).
 
-puis ; pendant la dernier ssemaine ; j ai trouve des difficultes sur le montage de mon projet ; combien des parties il le faut a mon projet ? comment savoir
+puis j ai trouvé des difficultés sur le montage de mon projet ; combien des parties il le fallait a mon projet ? comment savoir
 où les places ? 
+mais apres avoir finit j ai prit le temp de ameliorer le disign de mon jeux , comme mettre les lettres en mayuscule ; ou faire le pendu .
 
-Et après avoir finit mon projet ; j ai decidé de faire des petites modifications , pour la deco ; comme utiliser les lettres de l alphabet en mayuscule . 
 
