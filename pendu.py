@@ -35,12 +35,12 @@ def pendu():
     while len(lettres_a_trouves) > 0 and vies > 0:
 
         # ' '.join(['a', 'b', 'c']) --> 'a b c'
-        print(f"il te reste {vies} vies et tu as utilise ; ces lettres: {' '.join(lettres_trouves)}")
+        print(f"il te reste {vies} vies et tu as utilisé ; ces lettres: {' '.join(lettres_trouves)}")
 
         # Etat du mot a trouve  (par exemple:  H - L A)
         mot_liste = [lettre if lettre in lettres_trouves else '-' for lettre in mot]
         print(vies_dictionnaire_visuel[vies]) # montrer l etat du pendu
-        print(f"Palabra: {' '.join(mot_liste)}")
+        print(f"mot: {' '.join(mot_liste)}")
 
         # l utilisateur choisie une lettre
         mot_utilisateur = input('choisie une lettre: ').upper()
@@ -58,10 +58,10 @@ def pendu():
             # Si la letrtre n es pas dans le mot ; ceci enleve une vie.
             else:
                 vies = vies - 1
-                print(f"\nT a lettre, {mot_utilisateur} n es pas dans ce mot.")
+                print(f"\nLa lettre {mot_utilisateur} n es pas dans ce mot.")
         # si la lettre choisit a deja etait utilise.
         elif mot_utilisateur in lettres_trouves:
-            print("\nT a deja choise ce mot , choisit une autre.")
+            print("\nTa deja choisit ce mot , choisit une autre.")
         else:
             print("\ncet lettre n est pas valide.")
 
